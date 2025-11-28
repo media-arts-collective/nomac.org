@@ -5,61 +5,135 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Media Arts Collective</title>
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Social Preview -->
+  <meta property="og:title" content="Media Arts Collective">
+  <meta property="og:description" content="Community-Powered Multimedia Arts in Louisiana.">
+  <meta property="og:image" content="https://i.imgur.com/DFVl69w.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body>
 
   <!-- Top Navigation -->
   <nav class="top-nav">
-    <a href="#mission">Mission Statement</a>
-    <a href="#projects">Current Projects</a>
-    <a href="#involved">Get Involved</a>
+    <a href="#"><strong>MAC</strong></a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <!-- Header -->
   <header class="hero">
-    <img src="https://i.imgur.com/DFVl69w.png" alt="Media Arts Collective Logo" class="mac-logo">
+    <!-- <img src="https://i.imgur.com/DFVl69w.png" alt="Media Arts Collective Logo" class="mac-logo"> -->
+    <h1 class="mac-wordmark responsive">
+      <span>MEDIA</span>
+      <span>ARTS</span>
+      <span>COLLECTIVE</span>
+    </h1>
+
     <p class="tagline">Community-Powered Multimedia Arts in Louisiana</p>
-    <a class="cta" href="https://donate.stripe.com/dRm00l4MB9nu7Z7dES9IQ00" target="_blank">Support Our Work</a>
-  </header>
 
-  <!-- Sections -->
-  <main>
-
-    <section id="mission">
-      <h2>Mission Statement</h2>
-      <p>
+    <section class="cta-combo">
+      <p class="mission-short">
         Media Arts Collective supports community-based multimedia projects that bring 
         people together through light, sound, and public art.
       </p>
+
+      <div class="cta-buttons">
+        <a class="cta-outline" href="https://donate.stripe.com/dRm00l4MB9nu7Z7dES9IQ00" target="_blank">Support Our Work</a>
+
+        <a 
+          class="cta"
+          href="mailto:info@nomac.org?subject=Keep%20Me%20Posted&body=Hi%20MAC%20team%2C%0A%0APlease%20keep%20me%20posted%20on%20volunteer%20opportunities%20and%20upcoming%20events%2Fworkshops.%0A%0AThanks%21%0A"
+        >
+          Get Involved
+        </a>
+      </div>
+
+      <p class="donation-note">
+        Your support helps fund community workshops, public art, and collaborative media projects.
+      </p>
     </section>
 
+    <div class="hero-photo"></div>
+  </header>
+
+
+  <!-- Main Content -->
+  <main>
     <section id="projects">
       <h2>Current Projects</h2>
+
+      <div class="project-list">
+
+        <div class="project-card">
+          <h3>Supernova</h3>
+          <p>
+            A winter light installation exploring projection mapping and public space.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Projection Car</h3>
+          <p>
+            A mobile projection platform used for community events and creative showcases.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Bike Sound System</h3>
+          <p>
+            A bicycle-powered public address system for parades, group rides, and public events.
+          </p>
+        </div>
+
+      </div>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
       <p>
-        We are currently developing Supernova, the Projection Car, and a bike-powered 
-        sound system for community events.
+        <p>Founded in 2025, Media Arts Collective supports Media Arts Collective is a volunteer-driven nonprofit supporting creative 
+        technology, public art, and community media projects across Louisiana.
       </p>
     </section>
 
-    <section id="involved">
-      <h2>Get Involved</h2>
-      <p>
-        Volunteers, artists, and partners are welcome. Opportunities vary by project 
-        and skill level.
-      </p>
+    <section id="board">
+      <h2>Board of Directors</h2>
+      <ul class="board-list">
+        <li>Zachary Pine — President</li>
+        <li>Tyler Danley — Vice President</li>
+        <li>Abraham Kinkopf — Secretary & Treasurer</li>
+      </ul>
     </section>
+
+    <section id="partners">
+      <h2>Partners</h2>
+      <p>
+        Our past and ongoing work has included collaboration with community groups such as:
+      </p>
+      <ul class="partner-list">
+        <li>Cinema Sanctuary</li>
+        <li>Lafitte Greenway Partnership</li>
+        <li>Krewe de Vélorévolte</li>
+        <li>Virtual Krewe of Vaporwave</li>
+      </ul>
+    </section>
+
 
     <section id="contact">
       <h2>Contact</h2>
       <p>
-        For general inquiries or collaboration, please reach out by email to 
+        For general inquiries or collaboration, please reach out by email: 
         <a href="mailto:info@nomac.org">info@nomac.org</a>.
       </p>
     </section>
 
-  </main>
+  <footer class="footer">
+    <p>© 2025 Media Arts Collective • A 501(c)(3) Nonprofit Organization</p>
+    <p>New Orleans, Louisiana</p>
+  </footer>
 
 </body>
 </html>
