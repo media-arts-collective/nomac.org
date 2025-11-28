@@ -1,4 +1,7 @@
-/* Overall Layout */
+/* --------------------------------------------------
+   Base Layout
+-------------------------------------------------- */
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +16,26 @@ main {
   padding: 2rem 1.5rem;
 }
 
-/* Navigation */
+section {
+  margin: 2.5rem 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+  color: #222;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+
+
+/* --------------------------------------------------
+   Navigation
+-------------------------------------------------- */
+
 .top-nav {
   background: white;
   border-bottom: 1px solid #ddd;
@@ -35,7 +57,12 @@ main {
   color: #666;
 }
 
-/* Hero Header */
+
+
+/* --------------------------------------------------
+   Hero Area
+-------------------------------------------------- */
+
 .hero {
   text-align: center;
   padding: 3rem 1.5rem 2rem;
@@ -48,15 +75,56 @@ main {
   margin-bottom: 1.2rem;
 }
 
+.mac-wordmark.responsive {
+  font-family: Arial Black, Arial, sans-serif;
+  font-size: 2.1rem;
+  letter-spacing: 0.04em;
+  margin: 0;
+  text-align: center;
+}
+
 .tagline {
   font-size: 1.2rem;
   color: #444;
   margin-bottom: 1.2rem;
 }
 
-.cta-block {
+.hero-photo {
+  width: 100%;
+  height: 420px;
+  background-image: url('hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+
+
+/* --------------------------------------------------
+   CTA Sections
+-------------------------------------------------- */
+
+.cta-combo {
   text-align: center;
-  margin: 3rem 0;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.mission-short {
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 680px;
+  margin: 0 auto 1.2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
 }
 
 .cta {
@@ -71,14 +139,6 @@ main {
 
 .cta:hover {
   background: #3f3acb;
-}
-
-.cta-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
 }
 
 .cta-outline {
@@ -96,30 +156,18 @@ main {
   color: white;
 }
 
-
 .donation-note {
   font-size: 0.9rem;
   color: #555;
   margin-top: 0.8rem;
 }
 
-/* Section Styles */
-section {
-  margin: 2.5rem 0;
-  scroll-margin-top: 72px; /* prevents hidden section titles */
-}
 
-h2 {
-  font-size: 1.6rem;
-  margin-bottom: 0.6rem;
-  color: #222;
-}
 
-h3 {
-  margin-top: 0;
-}
+/* --------------------------------------------------
+   Project Cards
+-------------------------------------------------- */
 
-/* Project Cards */
 .project-list {
   display: grid;
   gap: 1.5rem;
@@ -143,7 +191,24 @@ h3 {
   color: #555;
 }
 
-/* Footer */
+
+
+/* --------------------------------------------------
+   Board / Partners Lists
+-------------------------------------------------- */
+
+.board-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: #444;
+}
+
+
+
+/* --------------------------------------------------
+   Footer
+-------------------------------------------------- */
+
 .footer {
   text-align: center;
   padding: 2rem 1rem;
@@ -153,64 +218,12 @@ h3 {
   border-top: 1px solid #ddd;
 }
 
-.board-list {
-  margin: 0;
-  padding-left: 1.2rem;
-  color: #444;
-}
 
 
-/*.cta-outline {
-  display: inline-block;
-  padding: 0.75rem 1.25rem;
-  border: 2px solid #4f46e5;
-  color: #4f46e5;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-top: 1rem;
-}
+/* --------------------------------------------------
+   Responsive Adjustments
+-------------------------------------------------- */
 
-.cta-outline:hover {
-  background: #4f46e5;
-  color: white;
-}
-*/
-
-.hero-photo {
-  width: 100%;
-  height: 420px;
-  background-image: url('hero.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top; /* <= top anchored */
-  border-radius: 8px;
-  margin-top: 2rem;
-}
-
-/* CTA Combo Section */
-.cta-combo {
-  text-align: center;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
-}
-
-.mission-short {
-  font-size: 1.1rem;
-  color: #444;
-  max-width: 680px;
-  margin: 0 auto 1.2rem;
-}
-
-.mac-wordmark.responsive {
-  font-family: Arial Black, Arial, sans-serif;
-  font-size: 2.1rem;
-  letter-spacing: 0.04em;
-  margin: 0;
-  text-align: center;
-}
-
-/* Stack automatically on narrow screens */
 @media (max-width: 480px) {
   .mac-wordmark.responsive span {
     display: block;
