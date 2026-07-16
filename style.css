@@ -18,10 +18,7 @@ main {
 
 section {
   margin: 2.5rem 0;
-<<<<<<< HEAD
   scroll-margin-top: 72px; /* prevents hidden section titles */
-=======
->>>>>>> update-hero-layout
 }
 
 h2 {
@@ -195,9 +192,6 @@ h3 {
   color: #555;
 }
 
-<<<<<<< HEAD
-
-=======
 /* --------------------------------------------------
    Team Grid
 -------------------------------------------------- */
@@ -282,7 +276,6 @@ h3 {
     height: 104px;
   }
 }
->>>>>>> update-hero-layout
 
 /* --------------------------------------------------
    Board / Partners Lists
@@ -320,7 +313,3 @@ h3 {
     display: block;
   }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> update-hero-layout
