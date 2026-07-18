@@ -234,6 +234,13 @@ h3 {
   font-size: 0.95rem;
 }
 
+.about-contracts {
+  margin-top: 1.25rem;
+  padding-left: 1rem;
+  border-left: 3px solid rgba(0,0,0,0.15);
+  font-size: 0.95em;
+}
+
 /* --------------------------------------------------
    Team Avatars (Uniform Circular PFPs)
 -------------------------------------------------- */
